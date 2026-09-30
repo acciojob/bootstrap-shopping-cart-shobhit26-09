@@ -1,1 +1,10 @@
-/*  your css code here. If applicable */
+.block-heading { color: #3b99e0; font-size: 2.5rem; font-weight: 700; }
+h2, h3 { color: #3b99e0; }
+.product { border: 1px solid #dee2e6; border-radius: 8px; background: #fff; }
+.product img { width: 100%; max-height: 110px; object-fit: cover; }
+.product h3 { font-size: 1.1rem; margin: 0 0 .35rem; }
+.summary { background: #f7fbff; border: 0; border-top: 4px solid #5ea4f3; padding: 1.5rem; }
+.summary h2 { font-size: 1.35rem; margin-bottom: .5rem; }
+.summary .border-bottom { border-color: #d8e4f0 !important; }
+.summary button { border-radius: 4px; background: #3b99e0; border-color: #3b99e0; padding: .8rem; font-weight: 600; }
+@media (max-width: 575.98px) { .block-heading { font-size: 1.8rem; } .product .col-6 { font-size: .9rem; } }
